@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{100C1BF3-123B-4979-9CB6-6C8D0453F556}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FellowshipOneApi</RootNamespace>
+    <AssemblyName>FellowshipOneApi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Address.cs" />
+    <Compile Include="Entities\AddressType.cs" />
+    <Compile Include="Entities\Attribute.cs" />
+    <Compile Include="Entities\AttributeGroup.cs" />
+    <Compile Include="Entities\ChurchCampus.cs" />
+    <Compile Include="Entities\Communication.cs" />
+    <Compile Include="Entities\CommunicationType.cs" />
+    <Compile Include="Entities\CreatedByPerson.cs" />
+    <Compile Include="Entities\DateRangeType.cs" />
+    <Compile Include="Entities\Denomination.cs" />
+    <Compile Include="Entities\Event.cs" />
+    <Compile Include="Entities\Gender.cs" />
+    <Compile Include="Entities\Group.cs" />
+    <Compile Include="Entities\GroupAttribute.cs" />
+    <Compile Include="Entities\GroupMember.cs" />
+    <Compile Include="Entities\GroupMemberGroup.cs" />
+    <Compile Include="Entities\GroupMemberPage.cs" />
+    <Compile Include="Entities\GroupMemberPerson.cs" />
+    <Compile Include="Entities\GroupType.cs" />
+    <Compile Include="Entities\HouseholdMemberType.cs" />
+    <Compile Include="Entities\LastUpdatedByPerson.cs" />
+    <Compile Include="Entities\Location.cs" />
+    <Compile Include="Entities\LocationAddress.cs" />
+    <Compile Include="Entities\MaritalStatus.cs" />
+    <Compile Include="Entities\Occupation.cs" />
+    <Compile Include="Entities\Person.cs" />
+    <Compile Include="Entities\PersonPage.cs" />
+    <Compile Include="Entities\School.cs" />
+    <Compile Include="Entities\Status.cs" />
+    <Compile Include="Entities\SubStatus.cs" />
+    <Compile Include="Entities\TimeZone.cs" />
+    <Compile Include="Entities\Weblink.cs" />
+    <Compile Include="FellowshipOneConfig.cs" />
+    <Compile Include="FellowshipOneClient.cs" />
+    <Compile Include="GroupMemberType.cs" />
+    <Compile Include="GroupService.cs" />
+    <Compile Include="PersonService.cs" />
+    <Compile Include="RequestSigner.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

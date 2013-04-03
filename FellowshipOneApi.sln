@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FellowshipOneApi", "src\FellowshipOneApi\FellowshipOneApi.csproj", "{100C1BF3-123B-4979-9CB6-6C8D0453F556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FellowshipOne.UnitTests", "src\FellowshipOne.UnitTests\FellowshipOne.UnitTests.csproj", "{BA803326-3B79-45FF-8D0D-D346494885D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{100C1BF3-123B-4979-9CB6-6C8D0453F556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100C1BF3-123B-4979-9CB6-6C8D0453F556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100C1BF3-123B-4979-9CB6-6C8D0453F556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100C1BF3-123B-4979-9CB6-6C8D0453F556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA803326-3B79-45FF-8D0D-D346494885D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA803326-3B79-45FF-8D0D-D346494885D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA803326-3B79-45FF-8D0D-D346494885D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA803326-3B79-45FF-8D0D-D346494885D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
